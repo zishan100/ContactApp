@@ -1,0 +1,108 @@
+body{
+    margin:0px;
+    /* text-align:center; */
+    
+}
+  
+
+#contact-heading{
+   text-align:center;
+   font-family:sans-serif;
+   margin-top:20px;
+   color:grey; 
+}
+#main-container{
+     display:flex;
+     flex-direction: column; 
+
+     justify-content: center;
+}
+ul{ 
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+   /* text-align:center; */
+   list-style: none;
+  
+}
+li{
+    position: relative;
+     width:40%; 
+     margin:auto;
+     background-color:rgb(117, 92, 230);
+     border:1px solid black;  
+    transition:all .5s ;
+    color:ivory;
+
+}
+.contact-detail{
+    display:flex;
+    justify-content:space-between;      
+     
+}
+.delete-contact{
+    display:none;
+    position: absolute;
+    top:31%;
+    left:92%;
+}
+li:hover .delete-contact{
+    display:block;
+    position: absolute;
+    top:31%;
+    left:92%;
+}
+li:hover{
+       
+       box-shadow:  0px 0px 8px 3px #888888;
+       background-color: rgb(86, 201, 230);
+}
+p{
+   display:inline-block;
+    
+}
+p.name{
+    padding-left:10px;
+}   
+p.phone{
+   padding-right: 50px;
+}  
+#form-container{
+      width:100%;
+      display: flex;
+      
+      justify-content:center;
+}
+
+#formstyle{
+    /* position: relative;
+    left:5%;
+    top:0; */
+
+    display: flex;
+    justify-content:center;
+    margin-left:39px;
+    width:42.5%;
+        
+}
+input,button{
+    display:inline-block;
+    border-style: none;
+    line-height:2;
+}
+
+input[type="text"]{
+    width:36%;
+}
+button{
+    width:18%;
+    font-size: 12px;
+    line-height:1;
+    padding:2px;
+    background-color:#78896bcc;
+    color:white;
+    
+}
+button:hover{
+    box-shadow:  0px 0px 4px 1px #888888;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "contact-listapp",
+  "version": "1.0.0",
+  "description": "A Contact List Appp is Creating to Learn Express Js WebFrameWork",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Codingninjas",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "js": "^0.1.0",
+    "mongoose": "^5.8.4"
+  }
+}
